@@ -6,10 +6,10 @@ function generatePassword(
   length
 ) {
   let password = "";
-  let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let lowercase = "abcdefghijklmnopqrstuvwxyz";
-  let numbers = "0123456789";
-  let symbols = "!@#$%^&*()_+~`|}{[]:;?><,./-=\\";
+  const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const lowercase = "abcdefghijklmnopqrstuvwxyz";
+  const numbers = "0123456789";
+  const symbols = "!@#$%^&*()_+~`|}{[]:;?><,./-=\\";
 
   let allowedcharacters = "";
 
